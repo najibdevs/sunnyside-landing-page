@@ -27,17 +27,23 @@
   </head>
   <body>
     <header>
-      <nav class="fa-navicon">
+      <nav class="nav">
         <div class="visible-nav">
-          <img src="images/logo.svg" alt="Company Logo" />
+          <img src="./images/logo.svg" alt="Sunnyside Agency Logo" />
           <i class="fa-solid fa-bars hamburger-icon"></i>
+          <div class="desktop-links">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a class="btn-contact" href="#">Contact</a>
+          </div>
         </div>
-        <div class="hidden-nav-links">
+        <div class="nav-links">
           <ul>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a class="btn" href="#">Contact</a></li>
+            <li><a class="btn-contact" href="#">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -47,9 +53,7 @@
       </div>
     </header>
     <main>
-      <div class="transform-image-wrapper image-wrapper">
-        <img src="images/mobile/image-transform.jpg" alt="Transform Image" />
-      </div>
+      <div class="transform-image-wrapper image-wrapper"></div>
       <div class="transform-your-brand-section section">
         <h2>Transform your brand</h2>
         <p class="description">
@@ -59,95 +63,87 @@
         </p>
         <a href="#" class="btn-more">Learn more</a>
       </div>
-      <div class="stand-out-image-wrapper image-wrapper">
-        <img src="images/mobile/image-stand-out.jpg">
-      </div>
+      <div class="stand-out-image-wrapper image-wrapper"></div>
       <div class="stand-out-section section">
         <h2>Stand out to the right audience</h2>
-        <p class="description">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
-        <a href="" class="btn-more btn-more-red">Learn more</a>
+        <p class="description">
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we'll build and extend
+          your brand in digital places.
+        </p>
+        <a href="#" class="btn-more btn-more-red">Learn more</a>
       </div>
       <div class="graphic-design-image-wrapper section section-v2">
         <h2>Graphic design</h2>
-        <p class="description">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention</p>
+        <p class="description">
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients' attention.
+        </p>
       </div>
       <div class="photography-image-wrapper section section-v2">
         <h2>Photography</h2>
-        <p class="description">Increase your credibility by getting the most stunning high quality photos that improvce your business image.</p>
+        <p class="description">
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
       </div>
       <div class="client-testimonials">
-        <h3 class="testimonials-title">Client testimonials</h3>
+        <div class="client-testimonials-inner">
+          <h3 class="testimonials-title">Client testimonials</h3>
 
-        <div class="testimonials-wrapper">
-          <div class="testimonial">
-            <img src="images/image-emily.jpg">
-            <p class="testimonial-description">
-              We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit
-            </p>
-            <p class="testimonial-author">
-              Emily R.
-            </p>
-            <p class="testimonial-author-title">
-              Marketing Director
-            </p>
-          </div>
+          <div class="testimonials-wrapper">
+            <div class="testimonial">
+              <img src="./images/image-emily.jpg" alt="Emily R." />
+              <p class="testimonial-description">
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+              <p class="testimonial-author">Emily R.</p>
+              <p class="testimonial-author-title">Marketing Director</p>
+            </div>
 
-          <div class="testimonial">
-            <img src="images/image-thomas.jpg">
-            <p class="testimonial-description">
-              Sunnyside's enthusiasm coupled with their keen interest in our brand's successs made it a satisfying and enjoyable experience
-            </p>
-            <p class="testimonial-author">
-              Thomas S.
-            </p>
-            <p class="testimonial-author-title">
-              Chief Operating Officer
-            </p>
-          </div>
-
-          <div class="testimonial">
-            <img src="images/image-jennie.jpg">
-            <p class="testimonial-description">
-              Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-            </p>
-            <p class="testimonial-author">
-              Jennie F.
-            </p>
-            <p class="testimonial-author-title">
-              Business Owner
-            </p>
+            <div class="testimonial">
+              <img src="./images/image-thomas.jpg" alt="Thomas S." />
+              <p class="testimonial-description">
+                Sunnyside's enthusiasm coupled with their keen interest in our
+                brand's success made it a satisfying and enjoyable experience.
+              </p>
+              <p class="testimonial-author">Thomas S.</p>
+              <p class="testimonial-author-title">Chief Operating Officer</p>
+            </div>
+            <div class="testimonial">
+              <img src="./images/image-jennie.jpg" alt="Jennie F." />
+              <p class="testimonial-description">
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+              <p class="testimonial-author">Jennie F.</p>
+              <p class="testimonial-author-title">Business Owner</p>
+            </div>
           </div>
         </div>
       </div>
       <div class="bottom-images">
-        <div class="image-wrapper">
-          <img src="images/mobile/image-gallery-milkbottles.jpg">
-        </div>
-        <div class="image-wrapper">
-          <img src="images/mobile/image-gallery-orange.jpg">
-        </div>
-        <div class="image-wrapper">
-          <img src="images/mobile/image-gallery-cone.jpg">
-        </div>
-        <div class="image-wrapper">
-          <img src="images/mobile/image-gallery-sugar-cubes.jpg">
-        </div>
-        
+        <div class="image-wrapper bottom-milkbottles-image"></div>
+        <div class="image-wrapper bottom-orange-image"></div>
+        <div class="image-wrapper bottom-cone-image"></div>
+        <div class="image-wrapper bottom-cubes-image"></div>
       </div>
     </main>
     <footer class="footer">
-      <img src="images/logo.svg">
+      <img src="./images/logo.svg" alt="Sunnyside Agency Logo" />
       <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Projects</a></li>
       </ul>
       <div class="social-icons">
-        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-facebook-square"></i>
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-pinterest"></i>
       </div>
     </footer>
+    <script src="/js/scripts.js"></script>
   </body>
 </html>
